@@ -17,8 +17,8 @@ html {
     --inter-fonts: "Inter", sans-serif;
     --dark-blue: #1E5AFA;
     --darkest-blue: #000F37;
-    --section-text: rgb(73, 72, 72);
-    --light-grey: #E7EBEE;
+    --section-text: #575757;
+    --light-grey: #9C9EA3;
 }
 
 
@@ -38,7 +38,7 @@ a {
     font-weight: 800;
     color: #313131;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .sectionText {
@@ -190,51 +190,28 @@ ul {
 
 
 .about {
-
     background-color: white;
-    /* height: 250vh; */
-    border: 2px solid red;
 }
 
 .about-content {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 .aboutHeading {
     color: #313131;
     font-family: var(--inter-fonts);
-
-}
-
-
-
-.about-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -18rem;
-}
-
-.about-item .item-left {
-    width: 60%;
-    position: relative;
-    /* Relative positioning for the pseudo-element */
 }
 
 .about-item-container {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    /* Adds space between the items */
     width: 80%;
     margin: 0 auto;
-    /* Centers the container */
 }
 
 .about-item {
@@ -242,42 +219,29 @@ ul {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    /* Necessary for proper positioning adjustments */
+    margin-bottom: -14rem;
 }
 
-
+.about-item .item-left {
+    width: 60%;
+    position: relative;
+}
 
 .about-item:nth-child(even) .item-right {
     width: 40%;
     transform: translateX(120px);
-    /* Shift right */
 }
 
 .about-item:nth-child(odd) .item-right {
     width: 40%;
     transform: translateX(-120px);
-    /* Shift right */
 }
-
-.about-item .item-left {
-    width: 60%;
-}
-
-
-.about-white-space {
-    height: 50vh;
-    /* display: none; */
-}
-
 
 .item-left img {
     width: 100%;
     display: block;
-
     position: relative;
-
     z-index: 1;
-
 }
 
 .item-left::before {
@@ -290,9 +254,7 @@ ul {
     left: 24%;
     z-index: 0;
     border-radius: 10px;
-    /* Ensures the pseudo-element is beneath the image */
 }
-
 
 .about-item-heading {
     font-size: 40px;
@@ -301,8 +263,6 @@ ul {
     font-family: var(--inter-fonts);
     margin-bottom: 13px;
 }
-
-
 
 .about-item-text {
     font-size: 16px;
@@ -319,15 +279,16 @@ ul {
     border-radius: 4px;
     border: 2px solid transparent;
     transition: all 0.3s ease;
-
 }
 
+/* .about-btn:hover {
+    color: #000F37;
+    background-color: transparent;
+    border: 2px solid red;
+} */
 
-
-.about-btn:hover {
-    color: #000F37 !important;
-    background-color: transparent !important;
-    border: 2px solid red !important;
+.about-white-space {
+    height: 33vh;
 }
 
 
@@ -374,7 +335,7 @@ ul {
 }
 
 .testimonials-container {
-    width: 90%;
+    width: 100%;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -384,7 +345,7 @@ ul {
 
 .testimonial-card {
     width: 580px;
-    background-color: var("--light-grey");
+    background-color: #E7EBEE;
     height: 273px;
     margin: 0 5px 20px 5px;
     display: flex;
@@ -607,11 +568,17 @@ ul {
 @media (max-width: 991px) {
 
     .sectionHeading {
-        font-size: 68px;
+        font-size: 55px;
         font-weight: 800;
         color: #313131;
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    .sectionText {
+
+        width: 51%;
+
     }
 
     .toggleBtn {
@@ -647,6 +614,10 @@ ul {
     }
 
 
+    .home {
+        height: 69vh;
+    }
+
     .homeHeading {
         font-size: 63px;
         font-weight: 800;
@@ -676,7 +647,7 @@ ul {
     }
 
     .about-item-heading {
-        font-size: 30px;
+        font-size: 29px;
         font-weight: 600;
         color: rgb(19, 18, 18);
         font-family: var(--inter-fonts);
@@ -686,7 +657,7 @@ ul {
     .about-item-text {
         font-size: 13px;
         color: var(--section-text);
-        line-height: 21px;
+        line-height: 19px;
         margin-bottom: 13px;
     }
 
@@ -710,52 +681,58 @@ ul {
         transform: translateX(75px);
     }
 
+    .about-item:nth-child(odd) .item-right {
+        width: 44%;
+        transform: translateX(-82px);
+    }
+
+
     .about-item .item-left {
         width: 76%;
     }
 
-}
-
-.accordion-container {
-    width: 76%;
-    margin: 80px auto 0 auto;
-    border: none;
-}
-
-.accordion-container {
-    width: 75%;
-    margin: 80px auto 0 auto;
-    border: none;
-}
 
 
-.banner-text h1 {
-    font-size: 36px;
-}
+    .accordion-container {
+        width: 76%;
+        margin: 80px auto 0 auto;
+        border: none;
+    }
 
-.banner {
-    width: 718px;
-    height: 193px;
-
-
-    padding: 21px;
-
-}
-
-.banner-text p {
-    width: 71%;
-    font-size: 12px;
-}
-
-.banner .banner-btn {
+    .accordion-container {
+        width: 75%;
+        margin: 80px auto 0 auto;
+        border: none;
+    }
 
 
-    font-size: 15px;
+    .banner-text h1 {
+        font-size: 36px;
+    }
 
-    width: 30%;
-    padding: 17px 29px;
+    .banner {
+        width: 718px;
+        height: 193px;
 
-}
+
+        padding: 21px;
+
+    }
+
+    .banner-text p {
+        width: 71%;
+        font-size: 12px;
+    }
+
+    .banner .banner-btn {
+
+
+        font-size: 15px;
+
+        width: 30%;
+        padding: 17px 29px;
+
+    }
 
 }
 
@@ -779,11 +756,79 @@ ul {
 
         width: 504px;
     }
+
+    .about-item-container {
+
+        width: 88%;
+
+    }
+
+    .about-item {
+
+        justify-content: center;
+
+        flex-direction: column;
+        margin-bottom: -41px;
+
+    }
+
+
+    .about-item:nth-child(2) .item-left {
+        order: 1;
+    }
+
+    .about-item:nth-child(2) .item-right {
+        order: 2;
+        width: 100%;
+
+        transform: translateX(0px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-item .item-left {
+        width: 100%;
+        margin-bottom: -3rem;
+
+
+    }
+
+    .about-item:nth-child(odd) .item-right {
+        width: 100%;
+        transform: translateX(0px);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .clients-container {
+        width: 100%;
+
+    }
+
+
+
+
+
+
+
+
+
+
 }
 
 
 @media (max-width: 576px) {
-
+    .sectionText {
+        width: 71%;
+        font-size: 13px;
+    }
 
     .navbar .content {
         position: relative;
@@ -882,6 +927,10 @@ ul {
 }
 
 @media (max-width:480px) {
+    .sectionText {
+        width: 89%;
+        font-size: 13px;
+    }
 
     .home {
 
@@ -950,5 +999,103 @@ ul {
         font-size: 15px;
         width: 49%;
         padding: 17px 29px;
+    }
+
+    .about-item-heading {
+        font-size: 25px;
+
+    }
+
+    .about-item-text {
+        font-size: 12px;
+
+    }
+
+    .about-btn {
+        font-size: 14px;
+
+        padding: 7px 20px;
+
+    }
+
+
+    .testimonials {
+        width: 97%;
+        padding-top: 3.5rem;
+
+
+    }
+
+    .testimonial-card {
+        width: 310px;
+        margin: 0px 0px 20px 0px;
+
+    }
+
+    .faqs {
+        width: 100%;
+        /* margin-bottom: 3.5rem; */
+        background-color: #FFFFFF;
+        padding-top: 7rem;
+    }
+
+    .accordion-container {
+        width: 94%;
+        margin: 47px auto 0 auto;
+
+    }
+
+
+    .banner {
+        width: 313px;
+        height: 170px;
+        padding: 27px 5px;
+        flex-direction: column;
+    }
+
+    .banner-text h1 {
+
+        text-align: center;
+    }
+
+    .banner-text p {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .banner .banner-btn {
+        font-size: 15px;
+        width: 44%;
+        padding: 6px 10px;
+    }
+
+    .footer-blue {
+
+        font-size: 12px;
+    }
+
+    .footer-smart p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 14px;
+
+    }
+
+    .input-button button {
+
+        font-size: 15px;
+
+    }
+
+    .footer-item .footer-item-heading {
+        font-size: 15px;
+
+        margin-bottom: 17px;
+    }
+
+    .footer-item a {
+
+        font-size: 13px;
     }
 }
