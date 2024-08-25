@@ -684,7 +684,7 @@ ul {
 }
 
 
-/* @media (min-width:1201px) {
+@media (min-width:1201px) {
     .home {
 
         height: 91vh;
@@ -718,7 +718,7 @@ ul {
     .about-white-space {
         height: 20vh;
     }
-} */
+}
 
 @media (max-width: 1200px) {
     .shape-rectangle {
