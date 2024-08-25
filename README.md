@@ -236,3 +236,53 @@ media (max-width:1200px) {
     }
 
 }
+
+main {
+position: relative;
+}
+
+.shape-ellipse {
+position: absolute;
+
+    top: 0;
+    right: 0;
+    width: 174px;
+    z-index: 999;
+
+}
+
+.shape-rectangle {
+position: absolute;
+top: 0;
+right: 21%;
+width: 1px;
+height: 100%;
+
+    z-index: 999;
+
+}
+
+.shape-w-circle {
+position: absolute;
+width: 23px;
+top: 2%;
+right: 20.195%;
+z-index: 999;
+}
+
+.white-line {
+position: absolute;
+width: 1px;
+height: 100%;
+top: 0;
+left: 15.5%;
+z-index: 999;
+}
+
+.shape-ellipse-blue {
+position: absolute;
+width: 29px;
+z-index: 999;
+top: 5.5%;
+left: 14.5%;
+}
