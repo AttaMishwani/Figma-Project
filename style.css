@@ -1363,6 +1363,17 @@ ul {
 } */
 
 @media (max-width:480px) {
+    .toggleBtn {
+
+        font-size: 24px;
+    }
+
+    .logo a {
+        font-weight: bold;
+        font-size: 26px;
+        color: var(--text-white);
+    }
+
     .home-links {
         display: none;
     }
