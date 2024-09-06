@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 It seems like the formatting may not be coming through correctly. Here's a cleaned-up version for your GitHub README that should display better:
 
 ````md
+=======
+>>>>>>> a02b44ec4e7c22ed7d71762423a30eb86cf09677
 # Smart Home Application
 
 This is a responsive front-end landing page for a Smart Home Application, built using HTML, CSS, and JavaScript along with Bootstrap for styling and layout. The design includes various sections like About Us, Testimonials, Clients, FAQs, and more. It is fully responsive and works on a variety of screen sizes, ensuring a smooth user experience.
