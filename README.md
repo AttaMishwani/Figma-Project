@@ -1,6 +1,3 @@
-Here's a basic structure for your README.md file for the Smart Home Application project:
-
-````md
 # Smart Home Application
 
 This is a responsive front-end landing page for a Smart Home Application, built using HTML, CSS, and JavaScript along with Bootstrap for styling and layout. The design includes various sections like About Us, Testimonials, Clients, FAQs, and more. It is fully responsive and works on a variety of screen sizes, ensuring a smooth user experience.
