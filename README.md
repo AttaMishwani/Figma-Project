@@ -46,7 +46,7 @@ This is a responsive front-end landing page for a Smart Home Application, built 
 
 ## Live Demo
 
-You can view the live demo [here](https://your-live-demo-link.com).
+You can view the live demo [here]([https://your-live-demo-link.com](https://attamishwani.github.io/Figma-Project/)).
 
 ## License
 
