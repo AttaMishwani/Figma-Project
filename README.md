@@ -1,4 +1,4 @@
-Here's a basic structure for your README.md file for the Smart Home Application project:
+It seems like the formatting may not be coming through correctly. Here's a cleaned-up version for your GitHub README that should display better:
 
 ````md
 # Smart Home Application
@@ -46,39 +46,25 @@ This is a responsive front-end landing page for a Smart Home Application, built 
    cd smart-home-application
    ```
 
-3. Open the `index.html` file in your browser:
+3. Open the `index.html` file in your browser to view the landing page.
 
-   ```bash
-   open index.html
-   ```
+## Live Demo
 
-## Project Structure
-
-```bash
-├── index.html         # Main HTML file
-├── style.css          # Custom CSS for styling
-├── imgs/              # Folder for image assets
-├── README.md          # Project documentation
-└── ...
-```
-
-## Demo
-
-You can view a live demo of this project [here](https://attamishwani.github.io/Figma-Project/).
+You can view the live demo [here](https://your-live-demo-link.com).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or feedback, feel free to reach out:
+Feel free to reach out:
 
-- Email: [atta.rehmanmishwani@gmail.com](mailto:atta.rehmanmishwani@gmail.com)
-- GitHub: [AttaMishwani](https://github.com/AttaMishwani)
-- LinkedIn: [Atta Ur Rehman](https://www.linkedin.com/in/atta-ur-rehman-mishwani-964a58317/)
+- **Email**: [atta.rehmanmishwani@gmail.com](mailto:atta.rehmanmishwani@gmail.com)
+- **GitHub**: [AttaMishwani](https://github.com/AttaMishwani)
+- **LinkedIn**: [Atta Ur Rehman](https://www.linkedin.com/in/atta-ur-rehman-mishwani-964a58317/)
 
 ```
 
-You can adjust it further based on any additional sections or features you might add. Let me know if you need more details or changes!
+You can replace the placeholder URLs (like for cloning and the live demo) with your actual GitHub repository link and the demo URL if applicable. This should now display properly in your GitHub repository.
 ```
